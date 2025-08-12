@@ -1,29 +1,45 @@
-﻿bool cont = true;
+﻿using System;
 
-while (cont == true)
+class Program
 {
-  Console.WriteLine("Do you wish to continue? (y/n)");
-  string? input = Console.ReadLine();
+  static void Main()
+  {
+    bool cont = true;
 
-  if (input == null)
-  {
-    Console.WriteLine("Please enter a valid answer");
-    continue;
-  }
+    while (cont == true)
+    {
 
-  input = input.Trim().ToLower();
+      Random random = new();
 
-  if (input == "y" || input == "yes")
-  {
-    cont = true;
-  }
-  else if (input == "n" || input == "no")
-  {
-    cont = false;
-  }
-  else
-  {
-    Console.WriteLine("Please enter a valid answer");
-    continue;
+      int secretNumber = random.Next(1, 101);
+
+      Console.WriteLine(secretNumber);
+
+      Console.WriteLine("Do you wish to continue? (y/n)");
+      string? input = Console.ReadLine();
+
+      if (input == null)
+      {
+        Console.WriteLine("Please enter a valid answer");
+        continue;
+      }
+
+      input = input.Trim().ToLower();
+
+      if (input == "y" || input == "yes")
+      {
+        cont = true;
+      }
+      else if (input == "n" || input == "no")
+      {
+        cont = false;
+      }
+      else
+      {
+        Console.WriteLine("Please enter a valid answer");
+        continue;
+      }
+    }
   }
 }
+
