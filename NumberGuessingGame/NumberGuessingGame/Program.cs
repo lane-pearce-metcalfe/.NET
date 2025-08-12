@@ -72,29 +72,34 @@ class Program
         }
       }
 
-      Console.WriteLine("Do you wish to continue? (y/n)");
-      string? contInput = Console.ReadLine();
+      while (true)
+      {
+        Console.Write("Do you wish to continue? (y/n): ");
+        string? contInput = Console.ReadLine();
 
-      if (contInput == null)
-      {
-        Console.WriteLine("Please enter a valid answer");
-        continue;
-      }
+        if (contInput == null)
+        {
+          Console.WriteLine("Please enter a valid answer");
+          continue;
+        }
 
-      contInput = contInput.Trim().ToLower();
+        contInput = contInput.Trim().ToLower();
 
-      if (contInput == "y" || contInput == "yes")
-      {
-        cont = true;
-      }
-      else if (contInput == "n" || contInput == "no")
-      {
-        cont = false;
-      }
-      else
-      {
-        Console.WriteLine("Please enter a valid answer");
-        continue;
+        if (contInput == "y" || contInput == "yes")
+        {
+          cont = true;
+          break;
+        }
+        else if (contInput == "n" || contInput == "no")
+        {
+          cont = false;
+          break;
+        }
+        else
+        {
+          Console.WriteLine("Please enter a valid answer");
+          continue;
+        }
       }
     }
   }

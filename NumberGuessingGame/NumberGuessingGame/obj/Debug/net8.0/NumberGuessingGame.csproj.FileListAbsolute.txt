@@ -1,0 +1,15 @@
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/bin/Debug/net8.0/NumberGuessingGame
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/bin/Debug/net8.0/NumberGuessingGame.deps.json
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/bin/Debug/net8.0/NumberGuessingGame.runtimeconfig.json
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/bin/Debug/net8.0/NumberGuessingGame.dll
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/bin/Debug/net8.0/NumberGuessingGame.pdb
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/obj/Debug/net8.0/NumberGuessingGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/obj/Debug/net8.0/NumberGuessingGame.AssemblyInfoInputs.cache
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/obj/Debug/net8.0/NumberGuessingGame.AssemblyInfo.cs
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/obj/Debug/net8.0/NumberGuessingGame.csproj.CoreCompileInputs.cache
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/obj/Debug/net8.0/NumberGuessingGame.sourcelink.json
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/obj/Debug/net8.0/NumberGuessingGame.dll
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/obj/Debug/net8.0/refint/NumberGuessingGame.dll
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/obj/Debug/net8.0/NumberGuessingGame.pdb
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/obj/Debug/net8.0/NumberGuessingGame.genruntimeconfig.cache
+/home/lane/.NET/NumberGuessingGame/NumberGuessingGame/obj/Debug/net8.0/ref/NumberGuessingGame.dll
