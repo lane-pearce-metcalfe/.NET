@@ -29,11 +29,40 @@ class Program
         Console.WriteLine("Please enter a valid number greater than 1");
       }
 
+
       Random random = new();
 
       int secretNumber = random.Next(1, maxNumber + 1);
 
-      Console.WriteLine(secretNumber);
+      int guess = 0;
+      int attempts = 0;
+
+      Console.WriteLine($"I'm thinking of a number between 1 and {maxNumber}");
+
+      while (guess != secretNumber)
+      {
+        Console.Write("Enter your guess: ");
+        string? guessInput = Console.ReadLine();
+
+        if (guessInput == null)
+        {
+          Console.WriteLine("Please enter a number");
+          continue;
+        }
+
+        if (!int.TryParse(guessInput, out guess))
+        {
+          Console.WriteLine("Please enter a valid number");
+          continue;
+        }
+
+        attempts++;
+
+        if (guess == secretNumber)
+        {
+          Console.WriteLine($"Correct! You guessed in {attempts} attempts!");
+        }
+      }
 
       Console.WriteLine("Do you wish to continue? (y/n)");
       string? contInput = Console.ReadLine();
