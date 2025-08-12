@@ -58,9 +58,17 @@ class Program
 
         attempts++;
 
-        if (guess == secretNumber)
+        if (guess < secretNumber)
         {
-          Console.WriteLine($"Correct! You guessed in {attempts} attempts!");
+          Console.WriteLine("Too low...");
+        }
+        else if (guess > secretNumber)
+        {
+          Console.WriteLine("Too high!");
+        }
+        else
+        {
+          Console.WriteLine($"Correct! You guessed it in {attempts} attempts");
         }
       }
 
