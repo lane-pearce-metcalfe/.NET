@@ -1,3 +1,4 @@
+// Almost like in web development this is like "import board from ./board"
 using Microsoft.EntityFrameworkCore;
 using ToDoApp.Infrastructure.Data;
 using ToDoApp.Infrastructure.Repositories;
