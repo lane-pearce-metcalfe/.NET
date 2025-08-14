@@ -1,0 +1,25 @@
+# Honestly I searched up whatever I might have to gitignore for a blazor project
+# I'm assuming it wont hurt to not be too careful for now can change later
+bin/
+obj/
+dist/
+publish/
+
+wwwroot/_framework/
+wwwroot/css/
+*.gz
+*.br
+
+.vs/
+.vscode/
+.idea/
+
+node_modules/
+
+*.log
+*.tmp
+*.temp
+*.swp
+
+.DS_Store
+Thumbs.db
